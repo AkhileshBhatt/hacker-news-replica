@@ -1,6 +1,6 @@
-## Available Scripts
+## Added GitHub Pages link
 
-- GitHub Pages link added: https://akhileshbhatt.github.io/hacker-news-replica/
+- https://akhileshbhatt.github.io/hacker-news-replica/
 
 ### `npm start`
 
