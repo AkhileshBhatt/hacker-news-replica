@@ -1,10 +1,43 @@
 .App {
+  text-align: left;
+  /* margin: 2px; */
+  background-color: #f5e2cd;
+  font-weight: 330;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-header {
+  background-color: #ff8843;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+}
+
+td {
   text-align: center;
+  color: rgb(27, 26, 26);
+}
+
+span {
+  margin-left: 4px;
+}
+.post-name-column {
+  text-align: left;
+}
+
+.make-bold {
+  font-weight: 500;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.chart {
+  margin-right: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,20 +46,14 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
+} */
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +62,68 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.pre-next {
+  text-align: right;
+  margin-right: 40px;
+  font-weight: bold;
+}
+
+.pre-next :hover {
+  cursor: pointer;
+}
+
+.hide-row {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.hide-row:hover,
+.hide-row:active {
+  font-weight: 500;
+  cursor: pointer;
+  color: #ee601e;
+}
+
+td a:link {
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(20, 19, 19);
+}
+
+td a:hover,
+a:active {
+  text-decoration: none;
+  font-weight: 500;
+  color: #ee601e;
+}
+
+/* td a:visited {
+  text-decoration: none;
+  color: #626464;
+} */
+
+.other-details {
+  font-size: 11px;
+  color: #626464;
+}
+
+.upVote {
+  cursor: pointer;
+}
+
+.pre-next-disabled {
+  pointer-events: 'none';
+  color: red;
+  /* background-color: red; */
+}
+
+.lineBreak {
+  height: 2px;
+  background-color: #ee601e;
+  color: #ee601e;
+  border-color: #ee601e;
+  /* color; */
+  border-radius: 0%;
 }
